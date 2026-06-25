@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/***HEADER***/
+header{
+    width: 100%;
+    background-color: aqua;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+}
+#logo{
+    flex-grow: 1;
+    height: 80%;
+    border: 1px solid violet;
+}
+#menu{
+    flex-grow: 3;
+    height: 80%;
+    border: 1px solid violet;
+}
+#logo{
+    flex-grow: 1;
+    height: 80%;
+    border: 1px solid violet;
+}
+/***SECTION BANNER***/
+#banner{
+    display: flex;
+}
+#texto{
+    height: 40vh;
+    flex-grow: 1;
+    background-color: aquamarine;
+}
+#imagem{
+    height: 40vh;
+    flex-grow: 2;
+    background-color: blue;
+}
+/***SECTION DESTAQUE***/
+#destaque{
+    display: flex;
+}
+.cards{
+    flex-grow: 1;
+    height: 30vh;
+    background-color: blueviolet;
+    border: 1px solid violet;
+}
+footer{
+    width: 100%;
+    background-color: cornflowerblue;
+    height: 15vh;
+}
