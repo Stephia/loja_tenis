@@ -110,6 +110,13 @@ footer{
     .cards{
         width: 50%;
     }
+    /*TEXTO :)*/
+    #texto{
+        height: 40vh;
+        flex-grow: 1;
+        background-color: aquamarine;
+        width: 100%;
+    }
   }
 /*LOGO FICA EM CIMA 100%, MENU 70% E BOTAO 30%,
 TEXTO SOBRE IMG, DESTAQUE EXIBIÇÃO DE 2 PRODUROS*/
