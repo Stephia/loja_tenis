@@ -34,6 +34,7 @@ header{
     height: 40vh;
     flex-grow: 1;
     background-color: aquamarine;
+    width: 10%;
 }
 #imagem{
     height: 40vh;
@@ -63,12 +64,15 @@ footer{
       background-color: lightblue;
       font-size: 14px;
     }
+    /*SOME A LOGO*/
     #logo{
         display: none;
     }
+    /*SOME O TEXTO*/
     #texto{
         display: none;
     }
+    /*DETALHES UM EMBAIXO DO OUTRO*/
     #destaque{
         display: flex;
         flex-direction: column;
@@ -82,32 +86,27 @@ footer{
         display: flex;
         flex-wrap: wrap;
     }
-
-    /*LOGO FICA EM CIMA 100%*/
+    /*LOGO ACIMA EM 100%*/
     #logo{
         width: 100%;
         text-align: center;
     }
-
-    /*MENU 70% E BOTAO 30%*/
+    /*MENU EM 70% E BOTAO EM 30%*/
     #menu{
         width: 70%;
     }
     #botao{
         width: 30%;
     }
-
-    /*TEXTO SOBRE IMG*/
+    /*TEXTO SOBRE A IMG*/
     #banner{
         display: flex;
         flex-direction: column;
     }
-
     /*DESTAQUE EXIBIÇÃO DE 2 PRODUTOS*/
     #destaque{
         flex-wrap: wrap;
     }
-
     .cards{
         width: 50%;
     }
