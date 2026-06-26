@@ -21,7 +21,7 @@ header{
     height: 80%;
     border: 1px solid violet;
 }
-#logo{
+#botao{
     flex-grow: 1;
     height: 80%;
     border: 1px solid violet;
@@ -55,3 +55,62 @@ footer{
     background-color: cornflowerblue;
     height: 15vh;
 }
+/*** MEDIA QUERIES ***/
+
+/***RESOLUÇÃO ATÉ 420PX***/
+@media screen and (max-width: 420px) {
+    header {
+      background-color: lightblue;
+      font-size: 14px;
+    }
+    #logo{
+        display: none;
+    }
+    #texto{
+        display: none;
+    }
+    #destaque{
+        display: flex;
+        flex-direction: column;
+    }
+  }
+/*SUMIR LOGO, TEXTO SOME, DETALHES UM EMBAIXO DO OUTRO*/
+
+/***RESOLUÇÃO ATÉ 700PX***/
+@media screen and (max-width: 700px) {
+    header{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    /*LOGO FICA EM CIMA 100%*/
+    #logo{
+        width: 100%;
+        text-align: center;
+    }
+
+    /*MENU 70% E BOTAO 30%*/
+    #menu{
+        width: 70%;
+    }
+    #botao{
+        width: 30%;
+    }
+
+    /*TEXTO SOBRE IMG*/
+    #banner{
+        display: flex;
+        flex-direction: column;
+    }
+
+    /*DESTAQUE EXIBIÇÃO DE 2 PRODUTOS*/
+    #destaque{
+        flex-wrap: wrap;
+    }
+
+    .cards{
+        width: 50%;
+    }
+  }
+/*LOGO FICA EM CIMA 100%, MENU 70% E BOTAO 30%,
+TEXTO SOBRE IMG, DESTAQUE EXIBIÇÃO DE 2 PRODUROS*/
